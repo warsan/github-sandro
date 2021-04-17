@@ -1,3 +1,3 @@
 # github-sandro
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/github-sandro)
+[Правка на StackBlitz ⚡️](https://stackblitz.com/edit/github-sandro)
