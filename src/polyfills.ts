@@ -1,17 +1,16 @@
 /**
- * This file includes polyfills needed by Angular and is loaded before the app.
- * You can add your own extra polyfills to this file.
+ * Этот файл содержит полифиллы, необходимые Angular, и загружается перед приложением.
+ * Вы можете добавить в него и собственные дополнительные полифиллы.
  *
- * This file is divided into 2 sections:
- *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.
- *   2. Application imports. Files imported after ZoneJS that should be loaded before your main
- *      file.
+ * Этот файл разделён на 2 раздела:
+ *   1. Браузер Polyfills. Они применяются перед загрузкой Zonejs и сортируются браузерами.
+ *   2. Импорт приложений. Файлы, импортированные после ZoneJS, загружаемые до вашего основного файла.
  *
- * The current setup is for so-called "evergreen" browsers; the last versions of browsers that
- * automatically update themselves. This includes Safari >= 10, Chrome >= 55 (including Opera),
- * Edge >= 13 on the desktop, and iOS 10 and Chrome on mobile.
+ * Текущая настройка предназначена для так называемых "вечнозелёных" браузеров, последние версии которых обновляют себя автоматически. 
+ * К таковым относятся Safari >= 10, Chrome >= 55 (в том числе и Opera),
+ * Edge >= 13 на рабочем столе, iOS 10 и Chrome на мобильном телефоне.
  *
- * Learn more in https://angular.io/guide/browser-support
+ * Узнайте больше в https://angular.io/guide/browser-support
  */
 
 /***************************************************************************************************
@@ -19,26 +18,26 @@
 */
 
 
-/** IE10 and IE11 requires the following for NgClass support on SVG elements */
+/** Для поддержки ngClass на элементах SVG IE10 и IE11 требуется следующее */
 // import 'classlist.js';  // Run `npm install --save classlist.js`.
 
-/** IE10 and IE11 requires the following for the Reflect API. */
+/** Для IE10 и IE11 требуется следующее для API Reflect. */
 // import 'core-js/es6/reflect';
 
-/** Evergreen browsers require these. **/
-// Used for reflect-metadata in JIT. If you use AOT (and only Angular decorators), you can remove.
+/** Вечнозелёные браузеры этого требуют. **/
+// Используется для отражения метаданных в JIT. Если вы используете AOT (и только декораторы Angular), то можете убрать это.
 import 'core-js/es7/reflect';
 
 /**
- * Required to support Web Animations `@angular/platform-browser/animations`.
- * Needed for: All but Chrome, Firefox and Opera. http://caniuse.com/#feat=web-animation
+ * Требуется для поддержки веб-анимации `@angular/platform-browser/animations`.
+ * Требуется для: Всех, кроме Chrome, Firefox и Opera. http://caniuse.com/#feat=web-animation
  **/
 // import 'web-animations-js';  // Run `npm install --save web-animations-js`.
 
 /***************************************************************************************************
- * Zone JS is required by default for Angular itself.
+ * Зона JS требуется по умолчанию для самого Angular.
  */
-import 'zone.js/dist/zone'; // Included with Angular CLI.
+import 'zone.js/dist/zone'; // В комплекте с Angular CLI.
 
 /***************************************************************************************************
  * APPLICATION IMPORTS
