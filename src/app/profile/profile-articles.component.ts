@@ -26,7 +26,7 @@ export class ProfileArticlesComponent implements OnInit {
         this.articlesConfig = {
           type: 'all',
           filters: {}
-        }; // Only method I found to refresh article load on swap
+        }; // Нашёл единственный метод обновления загрузки статьи на swap
         this.articlesConfig.filters.author = this.profile.username;
       }
     );
