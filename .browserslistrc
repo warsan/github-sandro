@@ -1,8 +1,8 @@
-# This file is used by the build system to adjust CSS and JS output to support the specified browsers below.
-# For additional information regarding the format and rule options, please see:
+# Этот файл используется системой сборки для настройки вывода CSS и JS для поддержки указанных ниже браузеров.
+# Дополнительную информацию о формате и параметрах правил см. в разделе:
 # https://github.com/browserslist/browserslist#queries
 
-# You can see what browsers were selected by your queries by running:
+# Вы можете увидеть, какие браузеры были выбраны вашими запросами, запустив:
 #   npx browserslist
 
 > 0.5%
