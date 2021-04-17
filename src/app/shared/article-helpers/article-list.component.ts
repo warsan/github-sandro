@@ -36,7 +36,7 @@ export class ArticleListComponent {
     this.loading = true;
     this.results = [];
 
-    // Create limit and offset filter (if necessary)
+    // Создать ограничение и фильтр смещения (при необходимости)
     if (this.limit) {
       this.query.filters.limit = this.limit;
       this.query.filters.offset =  (this.limit * (this.currentPage - 1));
