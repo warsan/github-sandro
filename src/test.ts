@@ -1,4 +1,4 @@
-// This file is required by karma.conf.js and loads recursively all the .spec and framework files
+// Этот файл требуется karma.conf.js и рекурсивно загружает все файлы .spec и framework
 
 import 'zone.js/dist/long-stack-trace-zone';
 import 'zone.js/dist/proxy.js';
@@ -12,21 +12,21 @@ import {
   platformBrowserDynamicTesting
 } from '@angular/platform-browser-dynamic/testing';
 
-// Unfortunately there's no typing for the `__karma__` variable. Just declare it as any.
+// К сожалению, для переменной `__karma__` нет набора текста. Просто объявите его как любой.
 declare const __karma__: any;
 declare const require: any;
 
-// Prevent Karma from running prematurely.
+// Предотвратить работу кармы преждевременно.
 __karma__.loaded = function () {};
 
-// First, initialize the Angular testing environment.
+// Сначала инициализируйте среду тестирования Angular.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting()
 );
-// Then we find all the tests.
+// Тогда мы найдём все тесты.
 const context = require.context('./', true, /\.spec\.ts$/);
-// And load the modules.
+// И загрузим модули.
 context.keys().map(context);
-// Finally, start Karma to run the tests.
+// Наконец, начните карму, чтобы запустить тесты.
 __karma__.start();
