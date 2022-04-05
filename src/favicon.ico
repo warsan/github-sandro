@@ -1,1 +1,12 @@
-<svg id="svg" width="300" height="300"><desc>Created with Snap</desc><defs><mask id="maskSl1mefm567"><g><rect x="10" y="10" width="280" height="280" fill="#ffffff" stroke="#ff00ff" style="stroke-width: 2;"></rect><circle cx="150" cy="150" r="60"></circle></g></mask></defs><rect x="5" y="5" width="290" height="290" fill="#8a04" stroke="#000d" style="stroke-width: 1;"></rect><rect x="13" y="13" width="274" height="274" mask="url('#maskSl1mefm567')" stroke="#f00a" style="stroke-width: 6;"></rect></svg>
+<svg id="svg" width="300" height="300">
+<desc>Created with Snap</desc>
+<defs>
+<mask id="maskSl1mefm567">
+<g>
+<rect x="10" y="10" width="280" height="280" fill="#ffffff" stroke="#ff00ff" style="stroke-width: 2;"></rect>
+<circle cx="150" cy="150" r="60"></circle>
+</g>
+</mask>
+</defs>
+<rect x="5" y="5" width="290" height="290" fill="#8a04" stroke="#000d" style="stroke-width: 1;"></rect>
+<rect x="13" y="13" width="274" height="274" mask="url('#maskSl1mefm567')" stroke="#f00a" style="stroke-width: 6;"></rect></svg>
