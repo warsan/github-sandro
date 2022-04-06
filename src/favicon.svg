@@ -1,1 +1,7 @@
-https://stackblitz.com/files/github-sandro/github/warsan/github-sandro/master/src/favicon.svg
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="162" height="32" style="cursor: pointer;">
+  <rect width="162" height="32" fill="#1166dd" rx="4" ry="4"/>
+  <rect width="1" height="32" fill="#1166dd" x="32" style="pointer-events: none;"/>
+  <text font-family="Helvetica, Arial, sans-serif" fill="#fff" font-size="12" size="12" x="38" style="pointer-events: none;">
+    <tspan dy="19.2" x="38">Открыть в StackBlitz</tspan></text>
+  <path d="M10 17.6 H15 L12 25 L22 14.4 H16.9 L19.9 7 L10 17.6z" fill="#ffff00" style="pointer-events: none;"/>
+</svg>
