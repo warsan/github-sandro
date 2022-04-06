@@ -7,8 +7,9 @@ describe('ng-demo App', () => {
     page = new Ng2RealApp();
   });
 
-  it('should display message saying app works', () => {
+  it('должно появиться сообщение о том, что приложение работает', () => {
     page.navigateTo();
     expect(page.getParagraphText()).toContain('conduit');
   });
 });
+// should display message saying app works
